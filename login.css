@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-sec{
+    background: rgba(49, 49, 49, 0.083);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    margin:  20px 30%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px -8px black;
+    justify-content: center;
+}
+input{
+    display: block;
+    width: 80%;
+    padding: 10px 10px;
+    margin: 20px auto;
+    outline: none;
+    border-radius: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    color: white;
+    font-size: 20px;
+}
+input:hover{
+    box-shadow: 0px 5px 20px -12px white;
+    background: rgba(2, 2, 2, 0.022);
+}
+input:focus{
+    background: rgba(118, 222, 253, 0.104);
+    box-shadow: 0px 0px 50px 0px rgba(1, 196, 255, 0.104);
+}
+.sub-btn{
+    display: block;
+    width: 100px;
+    width: 100px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.sub-btn:hover{
+    background: rgba(74, 74, 141, 0.439);
+    box-shadow: 0px 0px 20px -10px white;
+    cursor: pointer;
+}
+.a1{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 1px;
+    margin: 10px 1px;
+    color: rgb(157, 157, 157);
+    text-align: center;
+}
+.a1:hover{
+    color: rgb(184, 115, 115);
+}
+.a2{
+    text-decoration: none;
+    color: rgb(75, 109, 182);
+    text-align: center;
+    width: 100%;
+    padding: 10px 1px;
+    margin: 10px 1px;
+}
+.a2:hover{
+    color: rgb(7, 85, 253);
+}
+.fa-envelope {
+    display: flex;
+}
+.ftrcls{
+    display: inline;
+}
+
+.animate-btn{
+    position: relative;
+    animation: akash 1s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes akash {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+    50%  {top: 0px;}
+    75%  {top: 10px;}
+    100% {top: 0px;}
+}
